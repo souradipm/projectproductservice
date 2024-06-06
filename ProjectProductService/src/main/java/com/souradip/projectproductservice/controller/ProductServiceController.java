@@ -17,9 +17,9 @@ public class ProductServiceController {
    }
 	
    @PostMapping("/product")
-	public void createProduct(@RequestBody Product prod) {
+	public void createProduct(@RequestBody Product product) {
 		
-		productService.createProduct(prod);
+		productService.createProduct(product);
 		
     }
 
